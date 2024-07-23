@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/input_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_data_to_send"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/button_open_calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_calculator_app"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/button_open_todolist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_todo_list_app"/>
+</LinearLayout>
